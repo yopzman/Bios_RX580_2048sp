@@ -41,6 +41,10 @@ sha256sum *.rom
 
 Clocks, voltages, fan curve, and memory timings are **identical** to stock.
 
+Patcher script used (so you can reproduce this from your own dump):
+
+<https://raw.githubusercontent.com/AndrusK/RX580-2048SP-BIOS-Patcher/refs/heads/main/rx580_2048sp_patcher.py>
+
 ## Flashing (Linux)
 
 ```bash
@@ -62,3 +66,8 @@ Keep the monitor on iGPU/motherboard output while flashing the discrete card.
 - This VBIOS is vendor firmware. Redistributing it may violate the vendor's
   copyright or GitHub's ToS. The safer way to share this mod is the patcher
   script (applies the 3 changes above to your own dump) instead of the ROMs.
+
+## Credits
+
+- Patcher script by [AndrusK](https://github.com/AndrusK/RX580-2048SP-BIOS-Patcher),
+  used to generate the patched ROM from the original dump.
